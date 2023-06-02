@@ -1,0 +1,143 @@
+ 
+ 
+ /*body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+} 
+
+
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+*/
+
+
+
+.rectangle {
+  position: absolute;
+  width: 620px;
+  height: 555px;
+  left: 20px;
+  top: calc(50% - 555px/2);
+  border-radius: 20px;
+}
+.logo{
+  position: absolute;
+  width: 64px;
+  height: 22px;
+  left: 40px;
+  top: 54px;
+
+background: url('./resources/Rectangle.png');
+}
+
+.data{
+  position: absolute;
+width: 475px;
+height: 112px;
+left: 20px;
+top: 160px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 57px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.rectangle3{
+  position: absolute;
+width: 20px;
+height: 6px;
+left: 20px;
+top: 319px;
+
+}
+.logo{
+  position: absolute;
+width: 64px;
+height: 22px;
+left: 20px;
+top: -55px;
+
+}
+
+.rectangle2{
+  position: absolute;
+width: 4.87px;
+height: 5.49px;
+left: 43.23px;
+top: 319.49px;
+
+background: rgba(255, 255, 255, 0.31);
+border-radius: 74.4249px;
+transform: rotate(180deg);
+
+}
+.rectangle1{
+  position: absolute;
+width: 4.87px;
+height: 5.49px;
+left: 50.89px;
+top: 319.49px;
+
+background: rgba(255, 255, 255, 0.31);
+border-radius: 74.4249px;
+transform: rotate(180deg);
+}
+
+.url{
+  width: 84px;
+ height: 18px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 800px;
+color: #BFBFBF;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.linkdin{
+  position: absolute;
+left: 530px;
+right: 0%;
+top: 440px;
+bottom: 0%;
+}
+.facebook{
+  position: absolute;
+left: 555px;
+right: 0%;
+top: 442px;
+bottom: 0%;
+}
+.instagram{
+  position: absolute;
+left: 575px;
+right: 0%;
+top: 442px;
+bottom: 0%;
+}
